@@ -1,0 +1,1 @@
+[{"codigo":"NULO","descricao":"Não definido"},{"codigo":"PROPRIO","descricao":"Produção própria"},{"codigo":"TERCEIRO","descricao":"Consignado de terceiros"},{"codigo":"COMPRADO","descricao":"Comprado"},{"codigo":"ALUGADO","descricao":"Alugado ou emprestado"}]

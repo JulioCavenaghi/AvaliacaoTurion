@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.content {
+    margin: 5% 0 5% 20%;
+}
+
+
+.top-bar {
+    background-color: #4285f4;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.menu-icon img {
+    height: 50px;
+    position: fixed;
+    top: 5px;
+    left: 8%;
+    z-index: 9999;
+}
+
+.company-name {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.title{
+    text-align: center !important;
+    margin-top: 7% !important;
+    margin-bottom: 5% !important;
+    color: white;
+    font-size: 30px;
+}
+
+.footer {
+    background-color: #4285f4;
+    color: white;
+    height: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.sidebar {
+    background-color: #4285f4;
+    width: 20%;
+    height: calc(100%);
+    position: fixed;
+    top: 7%;
+    left: 0;
+}
+
+.btn-produtos {
+    height: 120px;
+    width: 200px;
+    margin: 5% 0 0 5%;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-produtos:hover {
+    background-color: #2980b9;
+}
+
+.btn-produtos:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.5);
+}
+
+.menu-options {
+    margin-top: 2%;
+    padding: 0;
+}
+
+.menu-options li {
+    color: white;
+    margin: 2%;
+    list-style: none;
+    font-size: 20px;
+}
